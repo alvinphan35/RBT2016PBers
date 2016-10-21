@@ -1,0 +1,13 @@
+Dependencies for Project 'RASTemplate', Target 'RASDemo': (DO NOT MODIFY !)
+F (.\Main.c)(0x5808100A)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ -I..\..\ -IC:\ -I..\StellarisWare -I..\..\StellarisWare -IC:\StellarisWare -Iinc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (../RASLib/inc/common.h)(0x57FEC2B1)
+I (C:\StellarisWare\inc\hw_types.h)(0x57FEC80B)
+I (../RASLib/inc/uart.h)(0x57FEC2B1)
+I (../RASLib/inc/gpio.h)(0x57FEC2B1)
+I (../RASLib/inc/time.h)(0x57FEC2B1)
+I (../RASLib/inc/motor.h)(0x57FEC2B1)
+F (.\Startup.c)(0x57FEC2B1)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ -I..\..\ -IC:\ -I..\StellarisWare -I..\..\StellarisWare -IC:\StellarisWare -Iinc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\startup.o --omf_browse .\startup.crf --depend .\startup.d)
+I (C:\StellarisWare\inc\hw_nvic.h)(0x57FEC80B)
+I (C:\StellarisWare\inc\hw_types.h)(0x57FEC80B)
+F (.\ServoDemo.c)(0x58073540)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ -I..\..\ -IC:\ -I..\StellarisWare -I..\..\StellarisWare -IC:\StellarisWare -Iinc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\servodemo.o --omf_browse .\servodemo.crf --depend .\servodemo.d)
+F (..\RASLib\output\RASLib.lib)(0x57FEC2B1)()
