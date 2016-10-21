@@ -3,6 +3,12 @@
 #include "../RASLib/inc/time.h"
 #include "../RASLib/inc/motor.h"
 
+	/* Basic Move forward code 
+	tMotor* left_motor = InitializeServoMotor(PIN_D0, true);
+	tMotor* right_motor = InitializeServoMotor(PIN_D1, false); 
+	SetMotor(left_motor, .5);
+	SetMotor(right_motor, .5);
+	*/
 void goForward(tMotor* Lmotor, tMotor* Rmotor, float speed){
  
 	SetMotor(Lmotor, speed);
